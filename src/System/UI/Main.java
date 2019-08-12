@@ -30,7 +30,7 @@ public class Main extends Application
 			// Main Program
 			primaryStage.setTitle("Untitled");
 			BorderPane root = (BorderPane) FXMLLoader.load(getClass().getResource("/System/UI/Resources/GUI.fxml"));
-			Scene scene = new Scene(root, 900, 700);
+			Scene scene = new Scene(root);
 			scene.getStylesheets().add(getClass().getResource("/System/UI/Resources/Application.css").toExternalForm());
 			primaryStage.setScene(scene);
 			primaryStage.show();
