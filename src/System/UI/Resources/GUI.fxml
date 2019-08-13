@@ -20,6 +20,7 @@
                   <Button layoutX="824.0" layoutY="9.0" mnemonicParsing="false" text="LV" AnchorPane.rightAnchor="46.66666666666663" />
                   <Button layoutX="792.0" layoutY="9.0" mnemonicParsing="false" text="DV" AnchorPane.rightAnchor="76.0" />
                   <TextField layoutX="14.0" layoutY="9.0" prefHeight="25.0" prefWidth="187.0" />
+                  <Button fx:id="ButtonAddMedia" layoutX="217.0" layoutY="9.0" mnemonicParsing="false" onAction="#OnActionButtonAddMedia" text="ADD MEDIA" />
                </children>
             </AnchorPane>
          </top>
